@@ -18,6 +18,14 @@ p {
   width: 100vw;
   height: 100vh;
   position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.game:hover {
+  cursor: none;
 }
 
 .hud {
@@ -51,11 +59,20 @@ p {
 .player {
   position: absolute;
   width: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.player:hover {
+  cursor: none;
 }
 
 .player__gun {
   height: 5px;
   width: 10px;
+  margin: 0 auto;
   background-color: lightblue;
 }
 
@@ -63,5 +80,17 @@ p {
   height: 35px;
   width: 20px;
   background-color: blue;
+}
+
+.bullet {
+  width: 5px;
+  height: 10px;
+  background-color: yellow;
+  display: none;
+  position: absolute;
+}
+
+.move {
+  display: inline-block;
 }
 /*# sourceMappingURL=styles.css.map */
