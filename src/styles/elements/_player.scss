@@ -1,0 +1,17 @@
+.player {
+    position: absolute;
+    width: 20px;
+
+    &__gun {
+        height: 5px;
+        width: 10px;
+        background-color: lightblue;
+    }
+
+    &__body {
+        height: 35px;
+        width: 20px;
+        background-color: blue;
+
+    }
+}

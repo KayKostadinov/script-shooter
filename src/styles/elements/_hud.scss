@@ -1,0 +1,23 @@
+.hud {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    &__left {
+        display: flex;
+
+        &--hp {
+            height: 20px;
+            width: 10px;
+            background-color: red;
+            margin: 0 .5rem;
+        }
+    }
+
+    &__right {
+        p {
+            text-align: right;
+            margin-bottom: .35rem;
+        }
+    }
+}
